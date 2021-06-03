@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylesheets/calculator.css">
+  <title>Document</title>
+  <script src="./calculator.js" defer></script>
+</head>
+<body>
+  <header> <p id="HeaderText">Grade Calculator</p>
+  <main>
+    <p class="special"> Activities</p>
+    <p>Gives grades to the numeric activities:</p>
+    
+    <table>
+    <tr>
+      <th>Name</th>
+      <th>Short Name</th>
+      <th>Weight</th>
+      <th id="Grade">Grade</th>
+      <th id="Percent">Percent</th>
+    </tr>
+    <tr>
+      <td class="test1">Activity 1</td>
+      <td>A1</td>
+      <td><form><input id= "A1_Weight" type="number"  oninput=A1funcDisplay()></form></td>
+      <td><form><input id= "TopA1Grade" type="number" oninput=A1funcDisplay()> / </form><form class="F1"> <input id="BotA1Grade" type="number" class="tablebox" oninput=A1funcDisplay()></form></td>
+      <td id="PercentA1"></td>
+      
+    </tr>
+
+    <tr>
+      <td class="test1">Activity 2</td>
+      <td>A2</td>
+      <td><form><input id= "A2_Weight" type="number" oninput=A2funcDisplay()></form></td>
+      <td><form><input id= "TopA2Grade" type="number" oninput=A2funcDisplay()> / </form><form class="F1"> <input id="BotA2Grade" type="number" class="tablebox" oninput=A2funcDisplay()></form></td>
+      <td id="PercentA2"></td>
+      
+    </tr>
+
+    <tr>
+      <td class="test1">Activity 3</td>
+      <td>A3</td>
+      <td><form><input id= "A3_Weight" type="number"  oninput=A3funcDisplay()></form></td>
+      <td><form><input id= "TopA3Grade" type="number" oninput=A3funcDisplay()> / </form><form class="F1"> <input id="BotA3Grade" type="number" class="tablebox" oninput=A3funcDisplay()></form></td>
+      <td id="PercentA3"></td>
+     
+    </tr>
+
+    <tr>
+      <td class="test1">Activity 4</td>
+      <td>A4</td>
+      <td><form><input id= "A4_Weight" type="number"  oninput=A4funcDisplay()></form></td>
+      <td><form><input id= "TopA4Grade" type="number"  oninput=A4funcDisplay()> / </form><form class="F1"> <input id="BotA4Grade" type="number" class="tablebox" oninput=A4funcDisplay()></form></td>
+      <td id="PercentA4"></td>
+    </tr>
+
+
+    </table>
+    
+   
+    <p id="Result_color">Result</p>
+    <p id="Result"></p>
+    <p id="Result1"></p>
+
+    <p><input id="Weighted" type="button" value="Weighted"> <input id="Mean" type="button" value="Mean"> </p>
+    
+  </main>
+  </header>
+  <footer>
+
+  </footer>
+</body>
+</html>

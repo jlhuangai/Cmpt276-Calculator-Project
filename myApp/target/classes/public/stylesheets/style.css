@@ -1,0 +1,20 @@
+body {
+    background-color: #9a82fe;
+    border: 2px dotted blueviolet
+}
+
+
+.special {
+    color: rgb(3, 116, 245);
+}
+
+#it2 {
+    font-size: 2em;
+}
+
+img{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 35vw
+}

@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(255, 255, 255);
+    border: red;
+    padding-left: 60px;
+    padding-right: 150px;
+    background-color:#A6192E;
+    padding-top: 15px;
+    
+    
+}
+
+table {
+     border-collapse:collapse ;
+     
+}
+
+table th {
+    text-align: left;
+    background-color: rgb(212, 203, 203);
+    padding: 4px 30px 4px 8px;
+   
+
+}
+
+table td {
+    border:1px solid rgb(212, 203, 203);
+    padding: 4px 8px;
+    background-color: rgb(232, 234, 236);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+}   
+
+
+head {
+    background-color: white;
+
+}
+
+main {
+    background-color: rgb(232, 234, 236);
+    width: 80%;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+    
+
+}
+.special {
+    color: #A6192E;
+    font-weight: bold;
+    line-height: 1.125em;
+}
+
+.test1 {
+    padding-right: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    background-color: white;
+    padding-left: 25px;
+    padding-right: 150px;
+    border-top: 50px solid #3d3935 ;
+    border-bottom: 40px solid #3d3935 ;
+    margin-top: -25px;
+    
+    
+    
+}
+
+#HeaderText {
+    color: black;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-left: 17px;
+}
+
+
+input[type=number] {
+    width: 60%;
+}
+
+input[type=text] {
+    width: 60%;
+}
+
+#Grade {
+    width: 75px;
+}
+
+
+#Result_color {
+    color: #A6192E;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
+
+#A1_Weight {
+    width: 40%;
+    line-height: 2em;
+}
+
+#A2_Weight {
+    width: 40%;
+    line-height: 2em;
+}
+
+#A3_Weight {
+    width: 40%;
+    line-height: 2em;
+}
+
+#A4_Weight {
+    width: 40%;
+    line-height: 2em;
+}
+
+
+
+#Weighted {
+    color: white; 
+   height: 150%;
+   background-color:#A6192E;
+   font-weight: normal;
+   float: right;
+   margin: 5px;
+}
+
+#Mean {
+   color: white; 
+   height: 150%;
+   background-color:#A6192E;
+   font-weight: normal;
+   float: right;
+   margin: 5px;
+}
